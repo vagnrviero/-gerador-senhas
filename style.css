@@ -30,6 +30,7 @@
         text-align: center;
         margin-top: 80px;
     }
+
     .conteudo-senha{
         margin-top: 80px;
         background: var(--fundo-senha);
@@ -60,6 +61,7 @@
         margin-top: 32px;
         padding: 24px;
           }
+
           .parametro-titulo{
             font-family: var(--roboto-mono);
             font-size: 28px;
@@ -68,4 +70,96 @@
             font-size: 24px;
          }
 
+         .parametro-coluna__senha{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
 
+         }
+
+
+         .parametro-senha{
+          width: 50px;
+          margin: 0% auto;
+
+         }
+
+         .parametro-senha-botoes{
+          display: flex;
+          justify-content: center;
+
+
+         }
+
+         .parametro__botao{
+          background-color: var(--fUNDO-TEXTO);
+          color: var(--branco);
+          border: 2px var(--bORDA);
+          padding: 24px;
+          font-size: 24px;
+          cursor: pointer;
+
+         }
+
+         .perametro-senha__texto{
+          padding: 24px;
+          border-top: 2px solid var(--bORDA);
+          border-bottom:  2px solid var(--bORDA);
+          margin: 0;
+          font-size: 24px;
+         }
+
+         .label{
+          font-size: 24px;
+
+         }
+
+
+         .checkbox{
+          width: 20px;
+          height: 20px;
+          cursor: pointer;
+
+         }
+
+         .barra{
+          background-color: var(--fundo-senha);
+          height: 30px;
+          width: 100%;
+
+         }
+
+         .forca{
+          height: 30px;
+          position: relative;
+          bottom: 30px;
+
+         }
+
+          .fraca{
+          width: 25%;
+          background-color: #E71B32;
+
+         }
+         .média{
+          width: 50%;
+          background-color: #faf408;
+
+         }
+         .forte{
+          background-color: #00f850;
+          width: 100%;
+
+         }
+
+         .parametro-textos{
+          display: flex;
+          justify-content: space-between;
+
+         }
+
+         @media screen and( min-whidt:768px){
+          .parametro-coluna__senha{
+            flex-direction: row;
+          }
+         }
